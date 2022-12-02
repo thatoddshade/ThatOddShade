@@ -2,7 +2,7 @@
 I make things... in __Python__... and sometimes in __CSS__...
 
 
-* As I don't have a lot to say I let you this *pastèque* 🇫🇷 🍉 :
+* As I don't have a lot to say I let you this *pastèque* 🍉 :
 
 ![pastèque](https://user-images.githubusercontent.com/115649477/199962665-2fafd092-32f2-44e9-9f08-eef8db413079.png)
 
