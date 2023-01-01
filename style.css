@@ -1,0 +1,33 @@
+:root {
+    --background-color: #2e222f;
+    --text-color: #ffffff;
+    --radius: 0.25em;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+/* masonry layout with items automatically placed in as many 200px columns as will fit */
+.results {
+    display: grid;
+    grid-template-rows: masonry;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 40px;
+    margin: 40px;
+    justify-content: center;
+    /* center columns in the grid container */
+
+}
+
+.results * {
+    border-radius: var(--radius);
+
+    /* temp */
+    border: 1px solid red;
+}
+
+/* size images to take up their grid column width */
+.results img {
+    width: 100%;
+}
