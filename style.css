@@ -1,7 +1,43 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('font/Metropolis-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    src: url('font/ZillaSlab-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --background-color: #2e222f;
+    --card-background-color: #3e3546;
     --text-color: #ffffff;
+    --card-font: 'Zilla Slab', serif;
     --radius: 0.25em;
+}
+
+
+*::selection {
+    color: var(--background-color);
+    background-color: var(--text-color);
 }
 
 body {
@@ -9,7 +45,7 @@ body {
 }
 
 /* masonry layout with items automatically placed in as many 200px columns as will fit */
-.results {
+.cards {
     display: grid;
     grid-template-rows: masonry;
     grid-template-columns: repeat(auto-fill, 200px);
@@ -20,14 +56,22 @@ body {
 
 }
 
-.results * {
+.cards div {
+    background-color: var(--card-background-color);
     border-radius: var(--radius);
+    color: var(--text-color);
+    font-family: var(--card-font);
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 32px;
+}
 
-    /* temp */
-    border: 1px solid red;
+.cards div.large-card {
+    grid-column: auto / span 3;
 }
 
 /* size images to take up their grid column width */
-.results img {
+.cards img {
     width: 100%;
 }
