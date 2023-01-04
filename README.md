@@ -1,4 +1,4 @@
-#### I am an human being called Shad0w_57. 🙃
+#### I am an human being called **ThatOddShade**. 🙃
 I make things... in __Python__... and sometimes in __CSS__...
 
 
@@ -6,9 +6,7 @@ I make things... in __Python__... and sometimes in __CSS__...
 
 ![pastèque](https://user-images.githubusercontent.com/115649477/199962665-2fafd092-32f2-44e9-9f08-eef8db413079.png)
 
-[▶YouTube](https://www.youtube.com/@shad0w-57/featured "My (french) YouTube channel")
-
-[🎮itch.io](https://shad0w-57.itch.io/ "Games I made")
+**My website** : https://thatoddshade.github.io/
 
 <!---
 Shad0w57/Shad0w57 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
