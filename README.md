@@ -1,4 +1,4 @@
-#### I am an human being called **ThatOddShade**. 🙃
+#### I am a human being called **ThatOddShade**. 🙃
 I make things... in __Python__... and sometimes in __CSS__...
 
 
